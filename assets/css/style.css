@@ -1,16 +1,19 @@
-
+html {
+    scroll-behavior: auto;
+}
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
 header a
 {
-    color: black;
+    color: white;
 }
 header:hover
 {
     background-color: rgba(0, 0, 0, 20);
 }
-header a{
-    color: white;
-}
-
 header {
     position: fixed;
     left: 0;
@@ -37,5 +40,5 @@ header nav a {
     padding: 5px 10px;
     text-decoration: none;
     text-transform: uppercase;
-    transition: all 200ms ease-in-out;
+    transition: all 300ms ease-in-out;
 }
