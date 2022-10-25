@@ -1,3 +1,41 @@
-body{
-    margin: auto;
+
+header a
+{
+    color: black;
+}
+header:hover
+{
+    background-color: rgba(0, 0, 0, 20);
+}
+header a{
+    color: white;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    transition: background-color ease-in-out 2s;
+}
+header nav {
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-right: 20px;
+}
+header nav a {
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 200ms ease-in-out;
 }
