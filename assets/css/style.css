@@ -30,6 +30,7 @@ header nav {
     align-self: flex-end;
     justify-self: flex-end;
     margin-right: 20px;
+
 }
 header nav a {
     border-radius: 3px;
@@ -41,4 +42,26 @@ header nav a {
     text-decoration: none;
     text-transform: uppercase;
     transition: all 300ms ease-in-out;
+}
+.signature{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 300px;
+    display: flex;
+    justify-content: center;
+}
+.carte h2{
+    text-align: center;
+    color: #111225;
+    font-size: 200%;
+}
+.carte h3{
+    text-align: center;
+    font-size: 200%;
+}
+.test{
+    display: flex;
+    justify-content: space-around;
 }
