@@ -12,7 +12,3 @@ html{
     width: auto;
     height: 900px;
 }
-.logo{
-    display: flex;
-    justify-content: center;
-}

@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="fr">
+<!-- Page Web en français signifie que google translate mettre la page en anglais sous demande de l'utilisateur -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Michel Bouillon</title>
+<!-- Nom du site Web -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+<!-- Permet l'ajout de Bootstrap dans le site Web -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+<!-- Permet l'ajout de Bootstrap dans le site Web -->
     <link rel="stylesheet" href="assets/css/style.css" />
+<!-- Lie le code html avec le code css -->
   </head>
+
+
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-primary sticky-top">
+<!-- Création de notre barre de navigation -->
         <div class="container-fluid">
           <button
             class="navbar-toggler"
@@ -39,21 +47,26 @@
               <a class="nav-link text-light" href="#Menu">Carte</a>
               <a class="nav-link text-light" href="#Réservation">Réservation</a>
               <a class="nav-link text-light disabled" href="#Avis">Avis</a>
+<!-- 4 onglets nous permettant de directement aller à l'endroit indiquer en cliquant -->
             </div>
           </div>
         </div>
       </nav>
       <div class="sign">
-        <a href="#image" title="top" class="logo"></a>
       </div>
+<!-- Div sign nous permet d'avoir notre image de fonds en css -->
     </header>
     <main>
       <h2 class="text-center" id="Menu">Accueil</h2>
+<!-- Partie Accueil One Page -->
 
       <h2 class="text-center" id="Menu">Menu</h2>
+<!-- Partie Menu One Page -->
       <div class="container text-center">
         <div class="row justify-content-center text-center p-4 container-fluid">
+<!-- Création des div Bootstrap avec les colonnes pour les menus (3)-->
           <div class="col-5">
+<!-- Div col-5 regroupant toutes la carte des menus, avec descriptions et prix -->
             <img
               src="assets/img/menu/gazpacho-andaluz.jpg"
               class="img-fluid w-100 rounded"
@@ -140,7 +153,9 @@
             />
           </div>
           <div class="col-2"></div>
+<!-- div col-2 permet la création d'un séparateur centrer entre les deux colonnes -->
           <div class="col-5">
+<!-- div col-5 permet de ne pas avoir un plat par page mais plutot au minimum 2 plats par page -->
             <p class="fw-bold fs-2">Gaspacho</p>
             <p class="fw-bold fs-5">63€</p>
             <img
@@ -221,10 +236,13 @@
           </div>
         </div>
       </div>
+<!-- Fin de la partie Menu -->
       <h2 class="text-center" id="Réservation">Réservation</h2>
+<!-- Création de la partie Réservation -->
       <form action="/action_page.php">
         <div class="mb-3 mt-3">
           <label for="email" class="form-label">Email:</label>
+<!-- Création du formulaire avec demande à l'utilisateur du mail, mot de passe,.... -->
           <input
             type="email"
             class="form-control"
@@ -234,7 +252,7 @@
           />
         </div>
         <div class="mb-3">
-          <label for="pwd" class="form-label">Password:</label>
+          <label for="pwd" class="form-label">Mot de passe:</label>
           <input
             type="password"
             class="form-control"
@@ -246,14 +264,19 @@
         <div class="form-check mb-3">
           <label class="form-check-label">
             <input class="form-check-input" type="checkbox" name="remember" />
-            Remember me
+            Se souvenir
           </label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Envoyez</button>
       </form>
-    </main>
+      
     <h2 class="text-center" id="Avis">Avis</h2>
+<!-- Création de la partie Avis Utilisateur -->
+    </main>
+
     <footer class="bg-dark text-center text-white">
+<!-- Le footer nous permet d'indiquer des informations sur le restaurant -->
+<!-- tel que numéro de téléphone, adresse, newsletters,mentions légales  -->
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Form -->
@@ -295,7 +318,8 @@
                 70, Rue des Jacobins <br />
                 80000 Amiens <br />
                 +33 (0)9.00.00.00.00 <br />
-                reservation@bonappetit.fr <br />____________________________
+                reservation@bonappetit.fr <br />
+                ____________________________
               </p>
             </div>
             <!--Grid row-->
