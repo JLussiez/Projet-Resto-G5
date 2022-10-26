@@ -1,5 +1,12 @@
-.test{
-    background: url("../img/testimonal_background_dark.jpg") center center no-repeat #000000 fixed;
+@font-face { /* Police d'écriture */
+    font-family: "griffon";
+    src: url("../fonts/Griffon-Regular.otf") format("otf");
+}
+html{
+    font-family: "griffon";
+}
+.sign{
+    background: url("../img/bg_blue.jpg") center center no-repeat #000000 fixed;
     background-size: cover;
     color:white;
     width: auto;

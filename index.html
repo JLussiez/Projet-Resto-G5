@@ -43,10 +43,8 @@
           </div>
         </div>
       </nav>
-      <div class="test">
-        <a href="#image" title="top" class="logo"
-          ><img src="assets/img/signature.png" alt="Logo Rainbow Photo"
-        /></a>
+      <div class="sign">
+        <a href="#image" title="top" class="logo"></a>
       </div>
     </header>
     <main>
@@ -224,27 +222,35 @@
         </div>
       </div>
       <h2 class="text-center" id="Réservation">Réservation</h2>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label"
-          >Email address</label
-        >
-        <input
-          type="email"
-          class="form-control"
-          id="exampleFormControlInput1"
-          placeholder="name@example.com"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"
-          >Example textarea</label
-        >
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-        ></textarea>
-      </div>
+      <form action="/action_page.php">
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter email"
+            name="email"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Password:</label>
+          <input
+            type="password"
+            class="form-control"
+            id="pwd"
+            placeholder="Enter password"
+            name="pswd"
+          />
+        </div>
+        <div class="form-check mb-3">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember" />
+            Remember me
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </main>
     <h2 class="text-center" id="Avis">Avis</h2>
     <footer class="bg-dark text-center text-white">
@@ -262,7 +268,6 @@
                 </p>
               </div>
               <!--Grid column-->
-              <h2 class="text-center" id="Avis">Avis</h2>
               <!--Grid column-->
               <div class="col-md-5 col-12">
                 <!-- Email input -->
@@ -276,7 +281,6 @@
                 </div>
               </div>
               <!--Grid column-->
-              <h2 class="text-center" id="Avis">Avis</h2>
               <!--Grid column-->
               <div class="col-auto">
                 <!-- Submit button -->
