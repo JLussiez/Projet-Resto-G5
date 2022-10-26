@@ -20,9 +20,8 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-danger">
+      <nav class="navbar navbar-expand-lg bg-primary">
         <div class="container-fluid">
-          <a class="navbar-brand text-light" href="#">Navbar</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -36,12 +35,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active text-light" aria-current="page" href="#"
-                >Home</a
-              >
-              <a class="nav-link text-light" href="#">Features</a>
-              <a class="nav-link text-light" href="#">Pricing</a>
-              <a class="nav-link text-light disabled">Disabled</a>
+              <a class="nav-link active text-light" href="#Accueil">Accueil</a>
+              <a class="nav-link text-light" href="#Menu">Carte</a>
+              <a class="nav-link text-light" href="#Réservation">Réservation</a>
+              <a class="nav-link text-light disabled" href="#Avis">Avis</a>
             </div>
           </div>
         </div>
@@ -49,42 +46,204 @@
     </header>
     <main>
       <div>
-        <img src="assets/img/testimonal_background_dark.jpg" class="w-100" />
+        <img
+          src="assets/img/testimonal_background_dark.jpg"
+          class="w-100"
+          id="Accueil"
+        />
       </div>
-      <!-- <div>
-        <img src="assets/img/signature.png" class="position-relative y" />
-      </div> -->
+      <h2 class="text-center" id="Menu">Menu</h2>
       <div class="container text-center">
         <div class="row justify-content-center text-center p-4 container-fluid">
           <div class="col-5">
             <img
-              src="assets/img/food_1_dark.jpg"
+              src="assets/img/menu/gazpacho-andaluz.jpg"
               class="img-fluid w-100 rounded"
             />
-            <p class="fw-bold fs-2 py-5 text-center">Test1</p>
+            <p class="fw-bold fs-2 py-5 text-center">Bricks à la viande</p>
+            <p class="fw-bold fs-5">59€</p>
             <img
               src="assets/img/white_wall.png"
               class="img-fluid w-100 rounded"
             />
             <img
-              src="assets/img/food_2_dark.jpg"
+              src="assets/img/menu/oeufs_cocottes_lardons.jpg"
+              class="img-fluid w-100 rounded"
+            />
+            <p class="fw-bold fs-2 py-5 text-center">Carpaccio de Boeuf</p>
+            <p class="fw-bold fs-5">(Frites, Salade, Copeaux de parmesan)</p>
+            <p class="fw-bold fs-5">25€</p>
+            <img
+              src="assets/img/white_wall.png"
+              class="img-fluid w-100 rounded"
+            />
+            <img
+              src="assets/img/menu/burger.jpg"
+              class="img-fluid w-100 rounded"
+            />
+            <p class="fw-bold fs-2 py-5 text-center">Tartare de Boeuf</p>
+            <p class="fw-bold fs-5">(Frites, Pommes de Terre Sautées)</p>
+            <p class="fw-bold fs-5">29€</p>
+            <img
+              src="assets/img/white_wall.png"
+              class="img-fluid w-100 rounded"
+            />
+            <img
+              src="assets/img/menu/roti_porc.jpg"
+              class="img-fluid w-100 rounded"
+            />
+            <p class="fw-bold fs-2 py-5 text-center">Saumon fumé</p>
+            <p class="fw-bold fs-5">
+              (Pommes de Terre Sautées, Concombre, Citron)
+            </p>
+            <p class="fw-bold fs-5">69€</p>
+            <img
+              src="assets/img/white_wall.png"
+              class="img-fluid w-100 rounded"
+            />
+            <img
+              src="assets/img/menu/Filets-de-cabillaud-la-sauce-moutarde.jpg"
+              class="img-fluid w-100 rounded"
+            />
+            <p class="fw-bold fs-2 py-5 text-center">
+              Crevettes au curry rouge et lait de coco
+            </p>
+            <p class="fw-bold fs-5">(Légumes, Riz)</p>
+            <p class="fw-bold fs-5">87€</p>
+            <img
+              src="assets/img/white_wall.png"
+              class="img-fluid w-100 rounded"
+            />
+            <img
+              src="assets/img/menu/Plateau-de-fromage-en-ardoise.jpg"
+              class="img-fluid w-100 rounded"
+            />
+            <p class="fw-bold fs-2 py-5 text-center">Mousse au chocolat</p>
+            <p class="fw-bold fs-5">(Chantilly)</p>
+            <p class="fw-bold fs-5">33€</p>
+            <img
+              src="assets/img/white_wall.png"
+              class="img-fluid w-100 rounded"
+            />
+            <img
+              src="assets/img/menu/café-gourmand_flickr_5497167092_5629877990_b.jpg"
+              class="img-fluid w-100 rounded"
+            />
+            <p class="fw-bold fs-2 py-5 text-center">Crumble aux pommes</p>
+            <p class="fw-bold fs-5">(Crème Anglaise)</p>
+            <p class="fw-bold fs-5">33€</p>
+            <img
+              src="assets/img/white_wall.png"
+              class="img-fluid w-100 rounded"
+            />
+            <img
+              src="assets/img/menu/verrines framboises.jpeg"
               class="img-fluid w-75 rounded"
             />
-            <p class="fw-bold fs-2">Test2</p>
           </div>
           <div class="col-2"></div>
           <div class="col-5">
-            <p class="fw-bold fs-2">Test3</p>
+            <p class="fw-bold fs-2">Gaspacho</p>
+            <p class="fw-bold fs-5">63€</p>
             <img
               src="assets/img/white_wall.png"
               class="img-fluid w-100 rounded"
             />
             <img
-              src="assets/img/food_3_dark.jpg"
+              src="assets/img/menu/Bricks_Viande.jpeg"
               class="img-fluid w-100 rounded"
             />
+            <p class="fw-bold fs-2 py-5">Oeufs cocotte aux lardons</p>
+            <p class="fw-bold fs-5">88€</p>
+            <img
+              src="assets/img/white_wall.png"
+              class="img-fluid w-100 rounded"
+            />
+            <img
+              src="assets/img/menu/carpaccio_boeuf.jpg"
+              class="img-fluid w-100 rounded"
+            />
+            <p class="fw-bold fs-2 py-5">Hamburger</p>
+            <p class="fw-bold fs-5">(Frites,Salade)</p>
+            <p class="fw-bold fs-5">36€</p>
+            <img
+              src="assets/img/white_wall.png"
+              class="img-fluid w-100 rounded"
+            />
+            <img
+              src="assets/img/menu/tag-tartare-de-boeuf-flickr.jpg"
+              class="img-fluid w-100 rounded"
+            />
+            <p class="fw-bold fs-2 py-5">Roti de porc</p>
+            <p class="fw-bold fs-5">(Frites,Pommes de Terre Sautées)</p>
+            <p class="fw-bold fs-5">64€</p>
+            <img
+              src="assets/img/white_wall.png"
+              class="img-fluid w-100 rounded"
+            />
+            <img
+              src="assets/img/menu/saumon_fume.jpg"
+              class="img-fluid w-100 rounded"
+            />
+            <p class="fw-bold fs-2 py-5">Filets de cabillaud à la moutarde</p>
+            <p class="fw-bold fs-5">(Pommes de Terre Sautées)</p>
+            <p class="fw-bold fs-5">95€</p>
+            <img
+              src="assets/img/white_wall.png"
+              class="img-fluid w-100 rounded"
+            />
+            <img
+              src="assets/img/menu/crevettes.jpg"
+              class="img-fluid w-100 rounded"
+            />
+            <p class="fw-bold fs-2 py-5">Plateau de fromages</p>
+            <p class="fw-bold fs-5">(Chèvre, Brebis, Roquefort, Camembert)</p>
+            <p class="fw-bold fs-5">42€</p>
+            <img
+              src="assets/img/white_wall.png"
+              class="img-fluid w-100 rounded"
+            />
+            <img
+              src="assets/img/menu/mousse-au-chocolat-incroyable.jpg"
+              class="img-fluid w-100 rounded"
+            />
+            <p class="fw-bold fs-2 py-5">Café gourmand</p>
+            <p class="fw-bold fs-5">48€</p>
+            <img
+              src="assets/img/white_wall.png"
+              class="img-fluid w-100 rounded"
+            />
+            <img
+              src="assets/img/menu/crumble.jpg"
+              class="img-fluid w-100 rounded"
+            />
+            <p class="fw-bold fs-2 py-5">Verrines de framboises</p>
+            <p class="fw-bold fs-5">(Mascarpone)</p>
+            <p class="fw-bold fs-5">31€</p>
           </div>
         </div>
+      </div>
+      <h2 class="text-center" id="Réservation">Réservation</h2>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Example textarea</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
       </div>
     </main>
   </body>
