@@ -12,12 +12,9 @@ html{
     width: auto;
     height: 900px;
 }
-.main{
-    background: url("../img/testimonal_background_dark.jpg") center center no-repeat #000000 fixed;
-    background-size: cover;
-    color:white;
-    width: auto;
-    height: 900px;
+.michel{
+    display: flex;
+    justify-content:center ;
 }
 .divCarousel {
     height: 100%;
@@ -35,20 +32,58 @@ html{
 .carousel-item img {
     height: 100%;
 }
-header nav{
-    background-color: #111225;
-}
 header nav div{
     display: flex;
     justify-content: center;
 }
-.container-top {
+header nav{
+    background-color: rgba(17,18,37,0.5);
+}
+header nav:hover{
+    background-color: rgba(17,18,37,0.8);
+    transition: all 500ms ease-in-out;
+}
+.bouton{
+    background-color: #AA9A8F;
+    border: 0;
+    border-radius: 0;
     display: flex;
-    align-items: flex-end;
-    width: 60px;
-  }
-.top {
+    justify-content: center;
+}
+div .form-control{
+    border-color: #AA9A8F;
+    width: 50%;
+    text-align: center;
+}
+div .form-select{
+    border-color: #AA9A8F;
+    width: 50%;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.textfood{
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+}
+#title{
+    margin: 5vh;
+}
+nav{
     position: sticky;
-    bottom: 20px;      
-    margin-right: 10px; 
-  }
+}
+
+h2{
+    color: #111225;
+}
+P{
+    color: #AA9A8F;
+}
+.navbar-nav a{
+    font-size:medium;
+}
+.categorie{
+    margin: 5vh;
+}
