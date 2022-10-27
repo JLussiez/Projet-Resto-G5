@@ -12,6 +12,13 @@ html{
     width: auto;
     height: 900px;
 }
+.main{
+    background: url("../img/testimonal_background_dark.jpg") center center no-repeat #000000 fixed;
+    background-size: cover;
+    color:white;
+    width: auto;
+    height: 900px;
+}
 .divCarousel {
     height: 100%;
     padding: 0px;
@@ -28,3 +35,20 @@ html{
 .carousel-item img {
     height: 100%;
 }
+header nav{
+    background-color: #111225;
+}
+header nav div{
+    display: flex;
+    justify-content: center;
+}
+.container-top {
+    display: flex;
+    align-items: flex-end;
+    width: 60px;
+  }
+.top {
+    position: sticky;
+    bottom: 20px;      
+    margin-right: 10px; 
+  }

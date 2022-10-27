@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <!-- Page Web en français signifie que google translate mettre la page en anglais sous demande de l'utilisateur -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Michel Bouillon</title>
+    <!-- Nom du site Web -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <!-- Permet l'ajout de Bootstrap dans le site Web -->
+
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Lie le code html avec le code css -->
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-primary sticky-top">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <!-- Création de notre barre de navigation -->
         <div class="container-fluid">
           <button
             class="navbar-toggler"
@@ -30,10 +36,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active text-light" href="#Accueil">Accueil</a>
+              <a class="nav-link text-light" href="#Accueil">Accueil</a>
               <a class="nav-link text-light" href="#Menu">Carte</a>
               <a class="nav-link text-light" href="#Réservation">Réservation</a>
-              <a class="nav-link text-light disabled" href="#Avis">Avis</a>
+              <a class="nav-link text-light" href="#Avis">Avis</a>
+              <!-- 4 onglets nous permettant de directement aller à l'endroit indiquer en cliquant -->
             </div>
           </div>
         </div>
@@ -41,13 +48,18 @@
       <div class="sign">
         <a href="#image" title="top" class="logo"></a>
       </div>
+      <!-- Div sign nous permet d'avoir notre image de fonds en css -->
     </header>
     <main>
-      <h2 class="text-center" id="Menu">Accueil</h2>
-
+      <div class="main">
+        <a href="#image" title="top" class="logo"></a>
+      </div>
+      <!-- Partie Accueil One Page -->
       <h2 class="text-center" id="Menu">Menu</h2>
+      <!-- Partie Menu One Page -->
       <div class="container text-center">
         <div class="row justify-content-center text-center p-4 container-fluid">
+          <!-- Création des div Bootstrap avec les colonnes pour les menus (3)-->
           <div class="col-5">
             <img
               src="assets/img/menu/gazpacho-andaluz.jpg"
@@ -278,11 +290,11 @@
                 data-holder-rendered="true"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Vanessa</h5>
                 <p>
                   Que dire ? Tout était parfait, l'accueil, le service, le
                   personnel; le cadre est magnifique quand au repas c'était
-                  divin, digne d'un grand chef.
+                  divin, digne d'un grand chef. Je recommande grandement cet
+                  établissement.
                 </p>
               </div>
             </div>
@@ -294,8 +306,12 @@
                 data-holder-rendered="true"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Lisa</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>
+                  J'ai déjeuné dans ce restaurant, dans le cadre d'un diner
+                  d'affaire, l'endroit est fantastique, un cadre très moderne,
+                  très épuré, un service très impressionant, mes clients étaient
+                  ravis.
+                </p>
               </div>
             </div>
             <div class="carousel-item">
@@ -306,8 +322,11 @@
                 data-holder-rendered="true"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Lisa</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>
+                  Repas excellent, personnel au petit soins dans une ambiance
+                  d'un restaurant gastronomique classique à la française, une
+                  très bonne soirée.
+                </p>
               </div>
             </div>
           </div>
@@ -332,7 +351,9 @@
         </div>
       </div>
     </div>
-
+    <div class="container-top">
+      <a href="#" class="top"></a>
+    </div>
     <footer class="bg-dark text-center text-white">
       <!-- Grid container -->
       <div class="container p-4 pb-0">
@@ -384,7 +405,6 @@
         <!-- Section: Form -->
       </div>
       <!-- Grid container -->
-
       <!-- Copyright -->
       <div
         class="text-center p-3"
@@ -395,6 +415,7 @@
       </div>
       <!-- Copyright -->
     </footer>
+    <!-- Permet l'ajout de Bootstrap dans le site Web -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
