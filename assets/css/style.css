@@ -50,16 +50,7 @@ header nav:hover{
     display: flex;
     justify-content: center;
 }
-div .form-control{
-    border-color: #AA9A8F;
-    width: 50%;
-    text-align: center;
-}
-div .form-select{
-    border-color: #AA9A8F;
-    width: 50%;
-    text-align: center;
-}
+
 .logo{
     display: flex;
     justify-content: center;
